@@ -2,19 +2,15 @@ import React from 'react'
 
 const Navbar = () => {
     const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'Home', href: '#', current: true },
+  { name: 'Store', href: '#', current: false },
+  { name: 'Cart', href: '#', current: false },
+  { name: 'Login', href: '#', current: false },
 ]
   return (
-   <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start bg-gray-800 py-4">
+   <div className="flex flex-1 items-center justify-items-stretch sm:items-stretch sm:justify-start bg-gray-200 py-4">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
-                  />
+                 <h5>STOKCOMMERCE</h5>
                 </div>
 
 <div className="hidden sm:ml-6 sm:block">

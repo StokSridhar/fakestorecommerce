@@ -1,11 +1,15 @@
  
-import ProductList from "./pages/ProductList";
+import Promosection from "./components/promosection";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export default function Home() { 
   
   return (
     <main> 
-     <ProductList/> 
+      <Navbar/>
+      <Promosection/> 
+    <Footer/>
       </main>
   );
 }
